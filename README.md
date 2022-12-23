@@ -8,6 +8,7 @@ cd packages/server/
 
 ```
 
+админ панель
 ```
 npx prisma studio
 ```
@@ -19,6 +20,3 @@ http://localhost:8000/api/trpc/ricroll
 ``
 
 3 для запуска приложения перейдите в корневую папку проекта и выполните `yarn start`
-```
-npx prisma studio
-```
