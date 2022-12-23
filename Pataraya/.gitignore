@@ -1,1 +1,43 @@
 node_modules
+# Individual files #
+####################
+
+# Compiled source #
+###################
+*.class
+*.xml
+.run
+
+# OS generated files #
+######################
+*.DS_Store
+*.DS_Store?
+._*
+
+# IDE generated files #
+#######################
+**/.vscode/
+**/.idea/
+**/.vs/
+
+# Byte-compiled / optimized / DLL files #
+#########################################
+**/__pycache__/
+**/build
+
+
+# Environments #
+################
+**/venv/
+.env
+**/gradle
+**.gitattributes
+**gradlew.bat
+**gradlew
+**/test
+
+# Cache directory
+settings.gradle
+**/.gradle/
+
+**/node_modules/

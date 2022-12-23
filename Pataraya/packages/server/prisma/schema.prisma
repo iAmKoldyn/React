@@ -1,6 +1,3 @@
-// This is your Prisma schema file,
-// learn more about it in the docs: https://pris.ly/d/prisma-schema
-
 generator client {
   provider = "prisma-client-js"
 }
@@ -20,5 +17,6 @@ model Note {
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
 
+//атрибут, чтобы изменить имя таблицы на "notes".
   @@map(name: "notes")
 }
